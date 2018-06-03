@@ -1,9 +1,8 @@
 package pl.sda.libraryproject.repository;
-
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import pl.sda.libraryproject.model.Book;
+import pl.sda.libraryproject.model.Author;
 
 @Repository
-public interface BookRepository extends CrudRepository<Book, Long> {
+public interface AuthorRepository extends CrudRepository<Author, Long>{
 }
